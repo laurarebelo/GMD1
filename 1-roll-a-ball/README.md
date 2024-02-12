@@ -20,3 +20,6 @@ Anyway, here's the technical description of how I implemented Roll-a-Ball, altho
 - I added a Winning Screen (a simple text overlay) when the Player has collected all Collectibles.
 
 This learning experience was satisfying and exciting. I look forward to developing my own game ideas instead of just following a tutorial, facing new challenges, and yeah, overall just learning by getting my hands dirty :D
+
+Below is a screenshot of what my Roll-a-Ball's first version looks like. It's pretty dull, but cooler stuff will follow.
+<img width="513" alt="Screenshot 2024-02-11 at 14 58 42" src="https://github.com/laurarebelo/GMD1/assets/91252082/9db17a05-573f-4684-81be-5192ed5b7bdb">

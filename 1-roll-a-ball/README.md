@@ -1,5 +1,7 @@
 # 1st Assignment: Roll-a-ball
 
+If you just want to play the game, [here](https://laurarebelo.github.io/Roll-A-Ball/) is the link.
+
 Going through the Unity Roll-a-Ball tutorial was a lot of fun. It taught me a lot of the basics of the Unity Editor & Scripting, and made me realize just how endless the possibilities are when developing games with Unity. The tutorial felt a little bit slow and made me want to skip the videos and just focus on the text instructions, but seeing as I am a beginner and the videos had more detailed comments, I decided to stick to following them, which I felt was a good idea.
 
 I was impressed with how you can create a public variable in the Script and then "Drag and drop" the GameObject you wanted to reference in your script. I was also impressed by the built-in physics system, and how easy it was to make a simple rolling game. It made me realize how insanely simple are the shitty phone games that are advertised on Instagram... Some of them might have been programmed in a day or two, right?! We just made Roll-a-Ball in two hours...

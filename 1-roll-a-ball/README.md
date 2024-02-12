@@ -10,11 +10,11 @@ I will not detail the steps I took during the tutorial - I just followed it from
 
 After following the tutorial, since we were prompted to elaborate on the game, I developed another level. Instead of it being just a square like the first one, I made it L shaped with the Pickups displayed in a way that would require the player to move "up and down" in the board. It's not super exciting, but it's a new level! To make different levels, I had to do some scripting. Below is a list of what I had to do:
 
-- Duplicate and edit GameObjects so as to make the new level layout in a new Scene. This was challenging because the Editor navigation isn't super intuitive for me, coming from Blender which has great navigation rip :')
+- Duplicate and edit GameObjects so as to make the new level layout in a new Scene. This was challenging because the Editor navigation isn't super intuitive for me, coming from Blender which has great navigation... :')
 - Defining, with a switch statement in the PlayerController, how many pickups exist per level.
 - Manage what level the Player is currently on, so as to show the Winning screen at the right number of Pickups. I did this by adding a new public variable in the PlayerController called "currentLevel", which I could then edit in each scene so as to duplicate as little code as possible.
 - Manage whether the current level was completed or not, so as to prompt the player for a Key Press to move on to the next level.
-- Listen for a Keyboard Input after the current level was completed, so as to load the next Scene.
+- Listen for a Keyboard Input only after the current level was completed, so as to load the next Scene.
 - In order to load the next Scene, keep a switch statement that defines, on Start, what is the "corresponding string" for the name of the next Scene, so it can be passed to the LoadScene method.
 
 This learning experience was satisfying and exciting. I look forward to developing my own game ideas instead of just following a tutorial, facing new challenges, and yeah, overall just learning by getting my hands dirty :D

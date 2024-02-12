@@ -18,6 +18,7 @@ After following the tutorial, since we were prompted to elaborate on the game, I
 This learning experience was satisfying and exciting. I look forward to developing my own game ideas instead of just following a tutorial, facing new challenges, and yeah, overall just learning by getting my hands dirty :D
 
 Below are a couple screenshots from the playable environment and of the new level layout. It's pretty dull, but cooler stuff will follow.
+
 <img width="513" alt="Screenshot 2024-02-11 at 14 58 42" src="https://github.com/laurarebelo/GMD1/assets/91252082/9db17a05-573f-4684-81be-5192ed5b7bdb">
 <img width="824" alt="Screenshot 2024-02-12 at 12 03 56" src="https://github.com/laurarebelo/GMD1/assets/91252082/a2a75872-e77f-4630-8e70-dbd9b7742cc6">
 <img width="713" alt="Screenshot 2024-02-12 at 12 04 20" src="https://github.com/laurarebelo/GMD1/assets/91252082/c5f087ea-a323-4dc3-a7e0-e59ba17e6dab">

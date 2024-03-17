@@ -11,7 +11,7 @@ I will take the description System by System.
 ## 1. Player Control
 This one was a bit tricky. I first thought I would do my game as a **Top-Down Shooter**, so I went with that and fully implemented it. One of the cool parts was that the player would have a crosshair that pointed in the direction that he last moved towards, and this way he knew exactly where his bullets would shoot when he did. This was challenging to implement, but cool.
 
-![Screen Recording 2024-03-17 at 15 03 09-2](https://github.com/laurarebelo/GMD1/assets/91252082/ca001ac6-9b6f-4118-9e62-37c8b313b646)
+![ezgif-4-cdc19d69d6](https://github.com/laurarebelo/GMD1/assets/91252082/e6f3b16e-3101-4c86-8dc7-cce4e3e92eb3)
 
 However, I was still concerned about the input constraints. Moving in two directions, dodging enemies, and killing them, all at the same time with only one joystick, did not seem like a good user experience. To tackle this, I considered doing an aim assist system, or even auto-aim (since it was pretty hard to aim at enemies with the keyboard inputs), but left that for the next day.
 
@@ -19,7 +19,7 @@ In the said next day, I started thinking to myself... and I realized that the ga
 
 So, I implemented a platformer-type control. I dreaded this big change, but when I got to it, it was incredibly easy thanks to the way I had approached Components. The Player's Shooting Mechanics resided in another Component, so all I had to do was swap out the "PlayerTopDownController", archive it (because you never know when old scripts will come in handy, even if they're unused), and replace it with my new "PlayerPlatformerController".
 
-[image](https://github.com/laurarebelo/GMD1/assets/91252082/864823aa-bed3-4fc6-a93e-3357e42eb1b5)
+![ezgif-4-32e1a1efd8](https://github.com/laurarebelo/GMD1/assets/91252082/0dba3e7c-38c4-4d59-b04c-05835649fb4a)
 
 For the platformer, I also had to implement the Camera following the Player and the Bounds of the Level so that the Player couldn't fall off. This was pretty simple and also handled mindfully of extendability (for different levels, it will be easy to set new boundary values and pass them to the Player Controller.)
 

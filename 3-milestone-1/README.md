@@ -19,9 +19,10 @@ In the said next day, I started thinking to myself... and I realized that the ga
 
 So, I implemented a platformer-type control. I dreaded this big change, but when I got to it, it was incredibly easy thanks to the way I had approached Components. The Player's Shooting Mechanics resided in another Component, so all I had to do was swap out the "PlayerTopDownController", archive it (because you never know when old scripts will come in handy, even if they're unused), and replace it with my new "PlayerPlatformerController".
 
+For the platformer, I also had to implement the Camera following the Player and the Bounds of the Level so that the Player couldn't fall off. This is illustrated in the gif below - I cannot fall to the left at the beginning of the level. This was pretty simple and also handled mindfully of extendability (for different levels, it will be easy to set new boundary values and pass them to the Player Controller.)
+
 ![ezgif-4-32e1a1efd8](https://github.com/laurarebelo/GMD1/assets/91252082/0dba3e7c-38c4-4d59-b04c-05835649fb4a)
 
-For the platformer, I also had to implement the Camera following the Player and the Bounds of the Level so that the Player couldn't fall off. This was pretty simple and also handled mindfully of extendability (for different levels, it will be easy to set new boundary values and pass them to the Player Controller.)
 
 ## 2. Color Mechanics
 

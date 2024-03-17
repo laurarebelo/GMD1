@@ -37,3 +37,5 @@ Game Systems: Enemy spawning, shooting with color mix & match (e.g. shooting R a
 
 **Interactivity:** The player’s main interaction with the game will be to move with the joystick and shoot with the colored buttons. Dialogue options with certain NPCs will also likely be a part of it for lore progression & reward acquisition.
 
+Below is a table specifying what colors need to be shot in order to kill enemies depending on their colors.
+<img width="607" alt="Screenshot 2024-03-09 at 16 20 10" src="https://github.com/laurarebelo/GMD1/assets/91252082/35285ee4-8a82-43d2-9684-cdf01319ff74">

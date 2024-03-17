@@ -28,27 +28,27 @@ For the platformer, I also had to implement the Camera following the Player and 
 
 The color mechanics are a central part of OverChrome, so it made sense for it to be one of the first things to be implemented. I actually implemented them before the Player Controls because I was so excited about the concept. Everything went as planned and it was a lot of fun.
 
-I made it so that the functions related to Colors reside in a separate script, not belonging to any Game Object, called Colorz. This script has static functions that can be used by any Script in the project.
+I made it so that the functions related to Colors would reside in a separate script, not belonging to any Game Object - the script is called Colorz not to clash with any previously-existing classes. This script has static functions that can be used by any script in the project.
 
 Since OverChrome works mostly with saturated colors, a lot of my support functions play with this.
 
-For example, there is a function GetColor that, instead of taking float values for R, G and B, takes booleans. So if I provide it with G and B, it will give me Cyan. And so on. This is extremely useful when generating enemies, because they can only be of a saturated color.
+For example, there is a function GetColor that, instead of taking float values for R, G and B, takes booleans. So if I provide it with G and B, it will give me a Unity Color equal to Cyan (#00FFFF). The hex values are always 00 or FF, that's the idea. This is extremely useful when generating enemies, because they can only be of a saturated color.
 
-Another useful function is to get the opposite color when given the RGB booleans. This is good for determining what will be the right color to shoot an enemy with. (For example, a R enemy can only be damaged GB (cyan), so this function, when provided with R, will return GB.)
+Another useful function is to get the opposite color when given the same RGB booleans. This is good for determining what will be the right color to shoot an enemy with. (For example, a R enemy can only be damaged GB (cyan), so this GetOppositeColor() function, when provided with R, will return GB.)
 
 ## 3. Enemy Health
 
-Enemy health was a very interesting concept to implement. Our goal is to make the enemy entirely white, since the game works with additive colors. So we must shoot him with the colors that they're "short of".
+Enemy health was a very interesting concept to implement. Our goal is to make the enemy entirely white, since the game works with additive colors. So, in a way, we must shoot him with the colors that they're "short of".
 
 When spawning an enemy, there are two things that we need to provide:
-- What are his initial colors? It is possible to choose any combination of R, G and B, except for all of these colors together.
+- What are his initial colors? It is possible to choose any combination of R, G and B, except for all of these colors together at the same time.
 - What is his total health?
 
 Provided with these initial parameters, here's what happens in the Enemy Health script:
 
 - The script calculates what color corresponds to the combination of RGB provided, and assigns that color to the material of the Sprite Renderer.
-- The script calculates what is the "opposite" color of this enemy. (fx a GB enemy will have the opposite color R). This opposite color will be the only color that can deal damage to the enemy.
-- The script has a "GetHit()" function taking a damage value and a color value.
+- The script calculates what is the "opposite" color of this enemy. (fx a GB enemy will have the opposite color R). This opposite color will be the only color that can deal damage to this enemy.
+- The script has a "GetHit()" function, taking a damage value and a color value.
   - The GetHit() function will be called by the bullets when colliding with the enemy.
   - If the color of the hit is the same as the enemy opposite color, the hit takes effect.
   - If the hit takes effect, the damage value will be subtracted from the enemy's health.
@@ -57,17 +57,18 @@ Provided with these initial parameters, here's what happens in the Enemy Health 
     - His health bar becomes shorter, representing the damage taken.
     - The script checks for a death. If health is smaller or equal to zero, the enemy is dead and the Game Object is destroyed.
    
-The enemies currently have no sprite, they are a mere circle. They also have a health bar over their head, with the same color as their initial color. This way, no matter how bright the enemy is at the moment, the player can always know what was his original color.
+The enemies currently have no sprite, they are a mere circle. They also have a health bar over their head, displaying their remaining health. The health bar is the same color as their initial color, no matter how much damage they have taken. This way, no matter how bright the enemy is at the moment, the player can always know what was his initial color.
 
 ## 4. Shooting Mechanics
 
 The shooting mechanic was a lot of fun to implement due to the "colorful" nature of my game. I had to set up three new Buttons in the Input Manager - "FireR", "FireG", and "FireB". (To fire Red, Green, and Blue). Since we are supposed to be able to combine these colors, the Player Shooter script has three boolean variables to keep track of what colors are being shot at the moment. These variables are updated in the Update() function. Then, if the Player is pressing any of them, the Shooting script attempts to fire - but not so fast! I also implemented a "max fire rate" system, with a variable in the editor, that utilizes a timer to limit how many bullets a player can fire per second. If I get to implement Weapons, it will be interesting to mess with these values.
 
-Another Game Object & Script that was very important for the shooting mechanic can be found in the Bullet Prefab.
+The Bullet Prefab is also extremely important for the Shooting Mechanics.
 
 The control of the instantiated Bullets occurs mostly in the Player Shooter script - it is this script that defines how much damage each bullet will deal, what color they will be, and what direction they will take. This makes sense because all these variables depend on the player (what weapon he is wielding, what colors he is shooting, and what direction he is facing).
 
 However, the Bullet itself manages a couple of things:
-- Destroying itself when going outside of the screen bounds
-- Triggering a Damage function when colliding with a Game Object with a ColorHealth component, including providing it with the color of the hit and the damage dealt.
+- Maintains/persists all of these values provided by the Shooter Script
+- Destroys itself when going outside of the screen bounds
+- Triggers a Damage (*GetHit()*) function when colliding with a Game Object with a ColorHealth component (a.k.a. an Enemy), including providing it with the color of the hit and the damage dealt (as explained in the 3. Enemy Health section.)
 

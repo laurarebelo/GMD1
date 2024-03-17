@@ -15,7 +15,7 @@ This one was a bit tricky. I first thought I would do my game as a **Top-Down Sh
 
 However, I was still concerned about the input constraints. Moving in two directions, dodging enemies, and killing them, all at the same time with only one joystick, did not seem like a good user experience. To tackle this, I considered doing an aim assist system, or even auto-aim (since it was pretty hard to aim at enemies with the keyboard inputs), but left that for the next day.
 
-In the said next day, I started thinking to myself... and I realized that the game would be a lot better as a platformer. Not only would it be easier to design levels, but also to navigate them, and the input/aim issue would be resolved since we wouldn't need to worry about shooting enemies "above" or "below" us.
+In the said next day, I started thinking to myself... and I realized that the game would be a lot better as a platformer. Not only would it be easier to design levels, but also to navigate them, and the input/aim issue would be resolved since we wouldn't need to worry about shooting enemies "above" or "below" us - only in front or behind.
 
 So, I implemented a platformer-type control. I dreaded this big change, but when I got to it, it was incredibly easy thanks to the way I had approached Components. The Player's Shooting Mechanics resided in another Component, so all I had to do was swap out the "PlayerTopDownController", archive it (because you never know when old scripts will come in handy, even if they're unused), and replace it with my new "PlayerPlatformerController".
 

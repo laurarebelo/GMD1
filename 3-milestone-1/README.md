@@ -10,6 +10,7 @@ I will take the description System by System.
 
 ## 1. Player Control
 This one was a bit tricky. I first thought I would do my game as a **Top-Down Shooter**, so I went with that and fully implemented it. One of the cool parts was that the player would have a crosshair that pointed in the direction that he last moved towards, and this way he knew exactly where his bullets would shoot when he did. This was challenging to implement, but cool.
+
 ![Screen Recording 2024-03-17 at 15 03 09-2](https://github.com/laurarebelo/GMD1/assets/91252082/ca001ac6-9b6f-4118-9e62-37c8b313b646)
 
 However, I was still concerned about the input constraints. Moving in two directions, dodging enemies, and killing them, all at the same time with only one joystick, did not seem like a good user experience. To tackle this, I considered doing an aim assist system, or even auto-aim (since it was pretty hard to aim at enemies with the keyboard inputs), but left that for the next day.

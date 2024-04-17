@@ -64,33 +64,48 @@ I will now write a few words about each.
 ## PLAYER HEALTH SYSTEM
 
 What you'd expect!
+
 Uses new "Health" Component.
-Has a max value and a current value.
+
+Has a max value and a current value.  
+
 Can take damage or heal. (These functions are public, can be triggered externally.)
 
 ## ENEMY BEHAVIOUR
 ### Slimes Idle Movement
 
 The slimes are now more lively - they move from side to side!
+
 Uses new "Wandering" component.
+
 You can give it a Max Range and a Movement Speed.
+
 They flip their sprite depending on the direction they're moving.
+
 They also wait a couple of seconds before starting to move again after they've "flipped". This was my first experience with **coroutines** so that was interesting - they're not as complicated as I thought!
 
 ### Slimes Damage Player
 
 The slimes can now deal damage to the Player.
+
 This happens on collision, of course.
+
 Uses new "DamageDealer" component.
+
 This component is responsible for checking for collisions and, if it collides with a Game Object with the "Health" component, it will use that and call its "TakeDamage" function.
+
 The fun part is that, to that function, it not only passes the value of damage, but also the **color of damage**.
+
 This is used to make the Player flash in the same color as the enemy that damaged him.
+
 The Player will be tinted in the damage color for as long as he is temporarily immune to damage (currently 1 second).
 
 ## PLAYER PAINT LEVELS
 
 The Player used to be able to indiscriminately shoot.
+
 I figured the game would be more interesting and challenging if there was a limit to how much you can shoot. Otherwise, one could just spam all the time and be unphased by all enemies.
+
 By having "paint levels", the player is forced to take a step back and "ration" his paint depending on the enemies he finds.
 
 The Paint Levels were integrated into the "PlayerShooter" component. This component has grown quite large so I am thinking of splitting it soon (fx. separating the Input Management from the Paint Level State Management).

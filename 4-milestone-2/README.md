@@ -88,7 +88,8 @@ They flip their sprite depending on the direction they're moving.
 
 They also wait a couple of seconds before starting to move again after they've "flipped". This was my first experience with **coroutines** so that was interesting - they're not as complicated as I thought!
 
-https://github.com/laurarebelo/GMD1/assets/91252082/176fa918-78c4-486f-899c-917128a667a4
+![ezgif-4-757127d807](https://github.com/laurarebelo/GMD1/assets/91252082/ad82d1e0-11cf-42aa-9764-4d7f9eb09ae4)
+
 
 ### Slimes Damage Player
 

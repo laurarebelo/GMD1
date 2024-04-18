@@ -71,6 +71,10 @@ Has a max value and a current value.
 
 Can take damage or heal. (These functions are public, can be triggered externally.)
 
+When taking damage, the player flashes in the same color as the enemy that hit him.
+
+The Player will be tinted in the damage color for as long as he is temporarily immune to damage (currently 1 second).
+
 ## ENEMY BEHAVIOUR
 ### Slimes Idle Movement
 
@@ -83,6 +87,8 @@ You can give it a Max Range and a Movement Speed.
 They flip their sprite depending on the direction they're moving.
 
 They also wait a couple of seconds before starting to move again after they've "flipped". This was my first experience with **coroutines** so that was interesting - they're not as complicated as I thought!
+
+https://github.com/laurarebelo/GMD1/assets/91252082/176fa918-78c4-486f-899c-917128a667a4
 
 ### Slimes Damage Player
 
@@ -97,8 +103,6 @@ This component is responsible for checking for collisions and, if it collides wi
 The fun part is that, to that function, it not only passes the value of damage, but also the **color of damage**.
 
 This is used to make the Player flash in the same color as the enemy that damaged him.
-
-The Player will be tinted in the damage color for as long as he is temporarily immune to damage (currently 1 second).
 
 ## PLAYER PAINT LEVELS
 

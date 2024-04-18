@@ -179,7 +179,7 @@ I also made myself a little heart icon to put next to it.
 
 I also made "labels" saying R, G, and B to put next to each bar.
 
-![gif-paint-lvls](https://github.com/laurarebelo/GMD1/assets/91252082/a6ce02f8-5052-4dfc-b946-114aad356dbf)
+![gif-rgb](https://github.com/laurarebelo/GMD1/assets/91252082/0679a3bc-5e34-4e49-bb8d-0d2568336be9)
 
 
 ## PICK-UPS

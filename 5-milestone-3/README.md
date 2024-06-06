@@ -83,7 +83,8 @@ Below is an example of one of the quickest level - notice how the dialogue is tr
 
 Oh man... How silly of me to leave sound for the last day of development lol!!! I am fortunate that it also wasn't too much trouble! I got a bunch of audio assets online and put them wherever I saw fit (so, in the cutscenes, when we walk, when we catch a pickup, when we jump, when we get hit, and background music!) Deep down, all it took was a bunch of AudioSource components and knowing where to place Play() and Stop() in the scripts ahahah. And I also added audio to the dialogue which introduced such a cool effect!!! :)))
 
-![audiosc](https://github.com/laurarebelo/GMD1/assets/91252082/5f9df517-f932-43a4-ab86-6ef9bb287bb5)
+<img width="349" alt="Screenshot 2024-06-06 at 18 52 07" src="https://github.com/laurarebelo/GMD1/assets/91252082/407dee13-07f8-4c9f-a283-45db0bfa990c">
+
 
 ## PAUSE MENU
 

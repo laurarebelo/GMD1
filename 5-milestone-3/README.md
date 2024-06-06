@@ -18,6 +18,8 @@ I mentioned, I believe, in the Game Design Document, that the lore of OverChrome
 
 I was really committed to bringing this to life so I designed and drew the sprites for her - her name is Maggie, which is short for Magenta! And her outfit is entirely magenta colored... Isn't that adorable!
 
+![maggie-show](https://github.com/laurarebelo/GMD1/assets/91252082/546d1ebf-3de2-4f46-92a0-fb50882d7ce3)
+
 ## DIALOGUE SYSTEM
 
 I was really excited about making a dialogue system for the longest time since I wanted to have a storytelling component to the game.
@@ -30,6 +32,8 @@ An ongoing dialogue blocks the player from moving and also impedes any input tha
 
 As for animations, the dialogue pans in and out of the screen when starting and finishing. Moreover, each line of dialogue is "typed out", as opposed to appearing in one frame, which makes for a nice effect and user experience.
 
+![dialogue-maggie](https://github.com/laurarebelo/GMD1/assets/91252082/4d0016a9-1713-478b-acef-e2d61b8d5b92)
+
 It is also possible to add an "ending scene" to the end of a dialogue. The type of object is a Timeline! If a timeline was provided to the DialogueManager, then after the very last line of the dialogue, this timeline will play. For my case in particular, this was good for cutscenes and for finishing a level (I would put a black fade out between levels and make their transition more seamless :)).
 
 Speaking of cutscenes and timelines, let's get into them.
@@ -39,6 +43,8 @@ Speaking of cutscenes and timelines, let's get into them.
 Given my determination to have a cutscene, I had to learn how to work with the Timeline feature of Unity. I had heard that it was hard to work with, but in the end, I did not think it was that bad. It was easy for me to make sense of them. So I basically keyframed the position, sprites & opacity of everything I wanted in order to achieve the effect I envisioned!
 
 I have one cutscene at the beginning of the game, where the Player meets Maggie and is prompted to go kill some monsters, and I have one at the end of the game where Maggie thanks the Player for him having killed all the monsters (duh), and they kind of go on a date - which we don't see. The absolute last screen of the game is a thanks for playing it.
+
+https://github.com/laurarebelo/GMD1/assets/91252082/528e2868-1006-4db3-bf42-6634e54a44d9 https://github.com/laurarebelo/GMD1/assets/91252082/f2cfcf3a-9525-4831-a0a6-d39dc2309a81
 
 Actually, making the cutscenes, particularly the first one, also included designing the background/scenario for it with a tilemap! I used two tilemaps in my game - one for City and one for Sewer. They were both 16-bit and they luckily for me they looked pretty nice together!
 

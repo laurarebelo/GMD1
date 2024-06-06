@@ -71,6 +71,10 @@ Has a max value and a current value.
 
 Can take damage or heal. (These functions are public, can be triggered externally.)
 
+When taking damage, the player flashes in the same color as the enemy that hit him.
+
+The Player will be tinted in the damage color for as long as he is temporarily immune to damage (currently 1 second).
+
 ## ENEMY BEHAVIOUR
 ### Slimes Idle Movement
 
@@ -83,6 +87,11 @@ You can give it a Max Range and a Movement Speed.
 They flip their sprite depending on the direction they're moving.
 
 They also wait a couple of seconds before starting to move again after they've "flipped". This was my first experience with **coroutines** so that was interesting - they're not as complicated as I thought!
+
+Below, you can see what their behaviour looks like ingame currently.
+
+![ezgif-4-757127d807](https://github.com/laurarebelo/GMD1/assets/91252082/ad82d1e0-11cf-42aa-9764-4d7f9eb09ae4)
+
 
 ### Slimes Damage Player
 
@@ -98,7 +107,12 @@ The fun part is that, to that function, it not only passes the value of damage, 
 
 This is used to make the Player flash in the same color as the enemy that damaged him.
 
-The Player will be tinted in the damage color for as long as he is temporarily immune to damage (currently 1 second).
+You can see a Slime dealing damage to the Player.
+
+![gif-damage](https://github.com/laurarebelo/GMD1/assets/91252082/a0a4f2fa-1d0c-4cc6-808a-74824acd7fde)
+
+In retrospective, maybe there is not enough feedback to sinalize when the Player takes Damage. This could be refined by adding a recoil, audio and better sprite design. Soon!
+
 
 ## PLAYER PAINT LEVELS
 
@@ -115,6 +129,11 @@ The component keeps track of the level of Red, Green and Blue the player has lef
 If the player is shooting a color he does not have, he is unable to shoot.
 (fx: if you're out of Red and you try to fire Magenta (R+B), you will only fire Blue.)
 
+Below is a gif of the Player spending all of his Blue paint.
+
+![gif-paint-lvls](https://github.com/laurarebelo/GMD1/assets/91252082/fdc6ccf4-39ac-4013-bac5-0fb900e8da80)
+
+
 ## UI
 ### Main Menu
 I am very happy with the UI I have integrated into the game so far, particularly the Main Menu. The three buttons have different sprites for when they're normal, selected or pressed.
@@ -129,7 +148,8 @@ I learned a lot about the UI elements while making this menu.
 
 Below is a GIF showing the current state of the Main Menu :).
 
-(//TODO ADD GIF)
+![gif-main-menu](https://github.com/laurarebelo/GMD1/assets/91252082/94c2c9d6-78c8-44ac-9d60-1f0968da5abc)
+
 
 ### Player Health UI
 - Type: Horizontal Bar with Fill
@@ -143,6 +163,9 @@ Below is a GIF showing the current state of the Main Menu :).
 
 I also made myself a little heart icon to put next to it.
 
+![gif-health-bar](https://github.com/laurarebelo/GMD1/assets/91252082/6042fae5-9538-480e-94f0-191b351be65f)
+
+
 ### Player Paint Levels UI
 - Type: 3 Horizontal Bars with Fill
 - Location: Top Right Corner
@@ -155,6 +178,9 @@ I also made myself a little heart icon to put next to it.
         - To determine how filled each bar is
 
 I also made "labels" saying R, G, and B to put next to each bar.
+
+![gif-rgb](https://github.com/laurarebelo/GMD1/assets/91252082/0679a3bc-5e34-4e49-bb8d-0d2568336be9)
+
 
 ## PICK-UPS
 ### Health, Paint
@@ -172,6 +198,11 @@ For this, I implemented a functionality to respawn a Pick-Up if it goes off scre
 For the Pick-Ups to be able to Respawn off screen, they could not be Destroyed nor Deactivated. That only left hiding them while keeping them Active - but how?
 
 The answer was disabling the Sprite Renderer components. However, this was trickier than I expected because the Paint Pick-Up had more than one Sprite (due to the necessity of dynamically setting its inner color but not its outline). I felt blocked... how could I reference all its SpriteRenderers in an extendable way? But I soon learned that you can also have Lists as Serializable Fields for a Script, and that solved my issue, because then I could easily pass both of them - even more, if I had any, or just one.
+
+Below is a gif of a Player that jumps into the middle of two slimes, takes 2 damage, spends all his Blue Paint, **picks up a Blue Paint Pick-Up**, and then **picks up a Health Pick-Up**, healing 1 damage.
+
+![gif-pickups](https://github.com/laurarebelo/GMD1/assets/91252082/906d2fab-56f8-4257-acfc-90e84a28a505)
+
 
 ## SPRITES
 

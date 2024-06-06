@@ -33,7 +33,7 @@ You are then taken to a tutorial where you learn first-hand how to handle these 
 
 It is then your challenge to finish three levels where you must kill all the colored monsters with what you have learned. It might be more challenging than you think, because spraying them with the wrong color will not work! So you must stay sharp at all times.
 
-![wrong-color](https://github.com/laurarebelo/GMD1/assets/91252082/659386ee-d398-47d9-a3a6-7fafde0ecae7)
+![wrong-color](https://github.com/laurarebelo/GMD1/assets/91252082/9b6556b6-024a-410a-9384-6323b1e78d16)
 
 If at any point you are in doubt as to what colors to press to spray a certain output, you can always Pause the game and check the Options menu!
 

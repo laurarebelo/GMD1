@@ -44,7 +44,8 @@ Given my determination to have a cutscene, I had to learn how to work with the T
 
 I have one cutscene at the beginning of the game, where the Player meets Maggie and is prompted to go kill some monsters, and I have one at the end of the game where Maggie thanks the Player for him having killed all the monsters (duh), and they kind of go on a date - which we don't see. The absolute last screen of the game is a thanks for playing it.
 
-![cutscene-1](https://github.com/laurarebelo/GMD1/assets/91252082/528e2868-1006-4db3-bf42-6634e54a44d9) ![cutscene-2](https://github.com/laurarebelo/GMD1/assets/91252082/f2cfcf3a-9525-4831-a0a6-d39dc2309a81)
+![cutscene-1](https://github.com/laurarebelo/GMD1/assets/91252082/53d18c1b-d931-43a2-b52e-c18effe7e086) ![cutscene-2](https://github.com/laurarebelo/GMD1/assets/91252082/aee06f01-1519-4041-8783-ac5e1e691cf0)
+
 
 Actually, making the cutscenes, particularly the first one, also included designing the background/scenario for it with a tilemap! I used two tilemaps in my game - one for City and one for Sewer. They were both 16-bit and they luckily for me they looked pretty nice together!
 

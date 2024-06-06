@@ -34,6 +34,9 @@ As for animations, the dialogue pans in and out of the screen when starting and 
 
 ![dialogue-maggie](https://github.com/laurarebelo/GMD1/assets/91252082/4d0016a9-1713-478b-acef-e2d61b8d5b92)
 
+Below is an example of just how simple it is to define a Dialogue in a file!
+<img width="1019" alt="Screenshot 2024-06-06 at 18 56 30" src="https://github.com/laurarebelo/GMD1/assets/91252082/0568b817-bd41-4a45-823c-03334978b90f">
+
 It is also possible to add an "ending scene" to the end of a dialogue. The type of object is a Timeline! If a timeline was provided to the DialogueManager, then after the very last line of the dialogue, this timeline will play. For my case in particular, this was good for cutscenes and for finishing a level (I would put a black fade out between levels and make their transition more seamless :)).
 
 Speaking of cutscenes and timelines, let's get into them.

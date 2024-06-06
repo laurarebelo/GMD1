@@ -9,7 +9,8 @@ The buttons I set out to use for the main controls were:
 - Red
 - Green
 - Blue
-![IMG_0219](https://github.com/laurarebelo/GMD1/assets/91252082/3cadc208-a3cc-4acb-bd8a-984a4afcd203)
+
+ ![IMG_0219](https://github.com/laurarebelo/GMD1/assets/91252082/d07af476-f831-47b8-8b0b-a7019ce5c036)
 
 Which made for a lot of nice saturated color combinations!
 

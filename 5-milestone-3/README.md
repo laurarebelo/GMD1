@@ -18,7 +18,7 @@ I mentioned, I believe, in the Game Design Document, that the lore of OverChrome
 
 I was really committed to bringing this to life so I designed and drew the sprites for her - her name is Maggie, which is short for Magenta! And her outfit is entirely magenta colored... Isn't that adorable!
 
-![maggie-show](https://github.com/laurarebelo/GMD1/assets/91252082/546d1ebf-3de2-4f46-92a0-fb50882d7ce3)
+<img width="516" alt="maggie-show" src="https://github.com/laurarebelo/GMD1/assets/91252082/02bd600a-c873-412b-8628-792fc1e8daf6">
 
 ## DIALOGUE SYSTEM
 

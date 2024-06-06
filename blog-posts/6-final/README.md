@@ -2,7 +2,7 @@ Hello and welcome to my final blog post about OverChrome, my GMD baby!!!
 
 This is a game that set out to make the most out of the Input options given - the VIA Arcade machine, featuring, per player, one joystick, four colored buttons and two black and white buttons.
 
-The buttons provided were:
+The buttons I set out to use were:
 - Red
 - Green
 - Blue

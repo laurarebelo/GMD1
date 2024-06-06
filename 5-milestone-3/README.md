@@ -44,8 +44,10 @@ Given my determination to have a cutscene, I had to learn how to work with the T
 
 I have one cutscene at the beginning of the game, where the Player meets Maggie and is prompted to go kill some monsters, and I have one at the end of the game where Maggie thanks the Player for him having killed all the monsters (duh), and they kind of go on a date - which we don't see. The absolute last screen of the game is a thanks for playing it.
 
-![cutscene-1](https://github.com/laurarebelo/GMD1/assets/91252082/53d18c1b-d931-43a2-b52e-c18effe7e086) ![cutscene-2](https://github.com/laurarebelo/GMD1/assets/91252082/aee06f01-1519-4041-8783-ac5e1e691cf0)
-
+![cutscene-1](https://github.com/laurarebelo/GMD1/assets/91252082/53d18c1b-d931-43a2-b52e-c18effe7e086)
+![cutscene-2](https://github.com/laurarebelo/GMD1/assets/91252082/aee06f01-1519-4041-8783-ac5e1e691cf0)
+![cutscene-3](https://github.com/laurarebelo/GMD1/assets/91252082/4a81ff5b-ca1b-433c-9fed-e969eeafbe02)
+![cutscene-4](https://github.com/laurarebelo/GMD1/assets/91252082/f99bd447-a2cb-43e0-9128-d5067f858bfc)
 
 Actually, making the cutscenes, particularly the first one, also included designing the background/scenario for it with a tilemap! I used two tilemaps in my game - one for City and one for Sewer. They were both 16-bit and they luckily for me they looked pretty nice together!
 
@@ -57,6 +59,10 @@ I also want to mention that, while working with Timelines, I learned about Signa
 
 It is nearly seamless to transition from the first cutscene to the tutorial of the game. Making the tutorial was very challenging for me because it had a lot of "pre-programmed" things, such as a lot of explanatory dialogue and dynamic spawning of monsters. I had to keep track of how many monsters had been killed at any given moment so that I knew when to trigger the next dialogue! This included making a new class (KillCount) and calling methods between components to make sure that the game kept flowing.
 
+![slime-spawn](https://github.com/laurarebelo/GMD1/assets/91252082/18528b00-06f7-46fd-988b-a28890b4a4e5)
+<img width="805" alt="Screenshot 2024-06-06 at 18 42 53" src="https://github.com/laurarebelo/GMD1/assets/91252082/a94bfbd5-91a6-461e-a44b-a09aabf85a88">
+
+
 ## LEVELS
 
 Speaking of KillCount, only now on the third milestone did I implement actual levels for the game! The thing about a level is that it starts and it ends. In Overchrome, a level ends when you have killed all the slimes, so - you guessed it - I had to keep track of the kill count once more.
@@ -65,13 +71,23 @@ KillCount is actually multi-purpose because it can both be used for spawning mor
 
 Making levels was extremely smooth with all of these systems I had in place - the tilemap designing, the enemy Prefabs, the dynamic kill counter, the extendable dialogue system... Chef's kiss. It went very very smoothly. I thought three levels was enough for the game to be playable and have progression, but of course, if I had more time I would have done some more, with different enemy types and such. But I am satisfied with what I have put out :).
 
+Below is an example of one of the quickest level - notice how the dialogue is triggered immediately after the last monster is killed, and it transitions out into another scene.
+
+![level](https://github.com/laurarebelo/GMD1/assets/91252082/0d1404d2-4acf-488e-bd0e-9c18e3d0c5b2)
+
+
 ## SOUND
 
 Oh man... How silly of me to leave sound for the last day of development lol!!! I am fortunate that it also wasn't too much trouble! I got a bunch of audio assets online and put them wherever I saw fit (so, in the cutscenes, when we walk, when we catch a pickup, when we jump, when we get hit, and background music!) Deep down, all it took was a bunch of AudioSource components and knowing where to place Play() and Stop() in the scripts ahahah. And I also added audio to the dialogue which introduced such a cool effect!!! :)))
 
+![audiosc](https://github.com/laurarebelo/GMD1/assets/91252082/5f9df517-f932-43a4-ab86-6ef9bb287bb5)
+
 ## PAUSE MENU
 
 Implementing the pause menu was very satisfying! I learned how to stop time in my scene. I mostly followed a tutorial for it but it was still a learning experience for me. I had a challenge with the navigation of the buttons but in the end I figured it out and pulled it off - I had to set the default-selected button and manually map the navigation between them since the automatic setup Unity had done was totally broken. I also made a Controls section that shows you everything you can do with the colored buttons of the arcade machine, which I thought was super cool! From the pause menu, you can resume your game, see the controls or quit the game. I made a prefab out of the Pause menu and added it to all the relevant scenes. This made it a lot quicker to implement across all levels.
+
+<img width="709" alt="Pause Menu" src="https://github.com/laurarebelo/GMD1/assets/91252082/2d2b7a37-b993-4738-8fe5-a59b457f719b">
+<img width="704" alt="Options Menu" src="https://github.com/laurarebelo/GMD1/assets/91252082/89e77ddc-a411-4c3d-8df4-7d43722ade1a">
 
 ## COMPILE FOR WINDOWS
 

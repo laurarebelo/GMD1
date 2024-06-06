@@ -52,7 +52,7 @@ I have one cutscene at the beginning of the game, where the Player meets Maggie 
 ![cutscene-3](https://github.com/laurarebelo/GMD1/assets/91252082/4a81ff5b-ca1b-433c-9fed-e969eeafbe02)
 ![cutscene-4](https://github.com/laurarebelo/GMD1/assets/91252082/f99bd447-a2cb-43e0-9128-d5067f858bfc)
 
-Actually, making the cutscenes, particularly the first one, also included designing the background/scenario for it with a tilemap! I used two tilemaps in my game - one for City and one for Sewer. They were both 16-bit and they luckily for me they looked pretty nice together!
+Actually, making the cutscenes, particularly the first one, also included designing the background/scenario for it with a tilemap! I used two tilemaps in my game - one for City and one for Sewer. They were both 16-bit and luckily for me they looked pretty nice together!
 
 Speaking of 16-bit - for some reason, when I worked with the Main Menu, I remember struggling so much to import a font into Unity, but this time, when doing it for the dialogue system, it was far easier and the text looked really nice and sharp! So I am glad I learned a new way.
 

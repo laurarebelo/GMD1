@@ -1,7 +1,7 @@
 # GMD1
 Game Development 1 Repository with the mandatory blog posts :)
 
-[1. Roll-A-Ball](https://github.com/laurarebelo/GMD1/tree/main/1-roll-a-ball)  
+[1. Roll-A-Ball](https://github.com/laurarebelo/GMD1/tree/main/blog-posts/1-roll-a-ball)  
 [2. Game Design Document](https://github.com/laurarebelo/GMD1/blob/main/2-gdd)  
 [3. Milestone 1 - Control, Shooting, Enemy Health](https://github.com/laurarebelo/GMD1/blob/main/3-milestone-1)  
 [4. Milestone 2 - Player Health/Ammo, UI, Pickups, Sprites](https://github.com/laurarebelo/GMD1/blob/main/4-milestone-2)  

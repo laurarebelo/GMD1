@@ -10,3 +10,13 @@ Game Development 1 Repository with the mandatory blog posts :)
 
 Video Demonstration: https://youtu.be/7mtecKrwYo0  
 WebGL Build: https://laurarebelo.github.io/OVERCHROME-WEBGL/
+
+
+<details>
+  <summary>Used Resources</summary>
+  ### Tilemaps
+- Sewer Tilemap: https://alb-pixel-store.itch.io/robotype-sewer
+- City Tilemap: https://mariaparragames.itch.io/free-retro-city-assetpack
+
+
+</details>

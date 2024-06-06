@@ -18,13 +18,15 @@ I mentioned, I believe, in the Game Design Document, that the lore of OverChrome
 
 I was really committed to bringing this to life so I designed and drew the sprites for her - her name is Maggie, which is short for Magenta! And her outfit is entirely magenta colored... Isn't that adorable!
 
+I drew these sprites in Aseprite taking a lot of inspiration from the previously existing Player sprites so that they would have similar size, look and proportions. I think they turned out to be a lovely match for each other!
+
 <img width="516" alt="maggie-show" src="https://github.com/laurarebelo/GMD1/assets/91252082/02bd600a-c873-412b-8628-792fc1e8daf6">
 
 ## DIALOGUE SYSTEM
 
 I was really excited about making a dialogue system for the longest time since I wanted to have a storytelling component to the game.
 
-I had to make my dialogue dynamic so that I could quickly put new dialogue information in a file and have the game read it "dynamically" - which would greatly speed up the development of new dialogue scenes. For this, I have a class called DialogueTrigger that can read a .json file in a certain format and trigger a dialogue, and a main class called DialogueManager that can handle said dialogue.
+I had to make my dialogue system dynamic so that I could quickly put new dialogue information in a file and have the game read it "dynamically" - which would greatly speed up the development of new dialogue scenes. For this, I have a class called DialogueTrigger that can read a .json file in a certain format and trigger a dialogue, and a main class called DialogueManager (which was later separated into smaller components) that can handle said dialogue.
 
 The dialogue progresses as the player presses any button in the input system. For each line, the UI is updated with a "headshot sprite" of who is speaking, their name, and what they are saying.
 

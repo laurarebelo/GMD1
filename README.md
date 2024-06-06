@@ -8,5 +8,5 @@ Game Development 1 Repository with the mandatory blog posts :)
 [5. Milestone 3 - Maggie, Dialogue, Cutscenes, Tutorial, Sound, Pause, Windows, Input](https://github.com/laurarebelo/GMD1/blob/main//blog-posts/5-milestone-3)  
 [6. Showcase](https://github.com/laurarebelo/GMD1/blob/main//blog-posts/6-final)  
 
-Video Demonstration: https://youtu.be/7mtecKrwYo0
+Video Demonstration: https://youtu.be/7mtecKrwYo0  
 WebGL Build: https://laurarebelo.github.io/OVERCHROME-WEBGL/

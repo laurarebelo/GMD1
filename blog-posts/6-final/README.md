@@ -14,7 +14,7 @@ The buttons I set out to use for the main controls were:
 
 Which made for a lot of nice saturated color combinations!
 
-In OverChrome, you must kill your enemies by spraying them with the paint that is the opposite color of what they are made of. So if your enemy is Blue, you must spray it with Yellow (R+G), and if it is yellow, you must spray it with Blue! Not to be mistaken with Cyan, of course.
+In OverChrome, you must kill your enemies by spraying them with the paint that is the OPPOSITE color of what they are made of. So if your enemy is Blue (B), you must spray it with Yellow (R+G), and if it is yellow (R+G), you must spray it with Blue (B)! Not to be mistaken with Cyan (G+B), of course. Many other combinations are possible 
 
 ![slime-spawn](https://github.com/laurarebelo/GMD1/assets/91252082/af463c37-3490-40c2-b6e3-a351a44c33dd)
 

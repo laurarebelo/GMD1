@@ -8,15 +8,14 @@ Game Development 1 Repository with the mandatory blog posts :)
 [5. Milestone 3 - Maggie, Dialogue, Cutscenes, Tutorial, Sound, Pause, Windows, Input](https://github.com/laurarebelo/GMD1/blob/main//blog-posts/5-milestone-3)  
 [6. Showcase](https://github.com/laurarebelo/GMD1/blob/main//blog-posts/6-final)  
 
-Video Demonstration: https://youtu.be/7mtecKrwYo0  
-WebGL Build: https://laurarebelo.github.io/OVERCHROME-WEBGL/
+**Video Demonstration**: https://youtu.be/7mtecKrwYo0  
+**WebGL Build:** https://laurarebelo.github.io/OVERCHROME-WEBGL/
 
+# Used Resources
 
-<details>
-  <summary>Used Resources</summary>
-<b>TILEMAPS</b>  
+### Tilemaps
 - Sewer Tilemap: https://alb-pixel-store.itch.io/robotype-sewer  
-- City Tilemap: https://mariaparragames.itch.io/free-retro-city-assetpack  
+- City Tilemap: https://mariaparragames.itch.io/free-retro-city-assetpack
 
 
 </details>

@@ -1,0 +1,86 @@
+{
+  "dialogue": [
+    {
+      "name": "???",
+      "line": "Hey..."
+    },
+    {
+      "name": "You",
+      "line": "?!"
+    },
+    {
+      "name": "???",
+      "line": "Do not be scared. I'm not here to bust you. I need your help."
+    },
+    {
+      "name": "You",
+      "line": "(She's pretty...)"
+    },
+    {
+      "name": "You",
+      "line": "Okay... What do you want?"
+    },
+    {
+      "name": "???",
+      "line": "My name is Maggie."
+    },
+    {
+      "name": "You",
+      "line": "Is that short for Magenta?"
+    },
+    {
+      "name": "Maggie",
+      "line": "Yeah lol"
+    },
+    {
+      "name": "Maggie",
+      "line": "Anyway, I don't know if you know this, but the sewers in this city are filled with monsters."
+    },
+    {
+      "name": "You",
+      "line": "What the hell?! That sounds nasty!"
+    },
+    {
+      "name": "Maggie",
+      "line": "Yeah... and you're the only one who can slay them, with your spray paint..."
+    },
+    {
+      "name": "You",
+      "line": "For real?!"
+    },
+    {
+      "name": "Maggie",
+      "line": "Yep... I guess you can see where I'm going with this..."
+    },
+    {
+      "name": "You",
+      "line": "..."
+    },
+    {
+      "name": "You",
+      "line": "I don't know, girl... That sounds like a lot of trouble..."
+    },
+    {
+      "name": "Maggie",
+      "line": ":("
+    },
+    {
+      "name": "Maggie",
+      "line": "Pretty pleaasseeeee... Your grafittis are super slay..."
+    },
+    {
+      "name": "You",
+      "line": "(Omg she likes my grafittis.....)"
+    },
+    {
+      "name": "You",
+      "line": "(And I lowkey don't have a life... that could be a fun little side quest...)"
+    },
+    {
+      "name": "You",
+      "line": "Yeah okay fine! Take me to the monsters!"
+    }
+  ]
+}
+
+

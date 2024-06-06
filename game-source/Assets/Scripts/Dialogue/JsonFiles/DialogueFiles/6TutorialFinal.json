@@ -1,0 +1,24 @@
+{
+  "dialogue": [
+    {
+      "name": "Maggie",
+      "line": "Wow, you actually did it!"
+    },
+    {
+      "name": "Maggie",
+      "line": "It seems like you're ready to go and kill some real monsters."
+    },
+    {
+      "name": "Maggie",
+      "line": "There will be 3 levels. All you need to do is kill all the slimes in each level."
+    },
+    {
+      "name": "Maggie",
+      "line": "I'm counting on you!"
+    },
+    {
+      "name": "You",
+      "line": "Ok bb :)"
+    }
+  ]
+}

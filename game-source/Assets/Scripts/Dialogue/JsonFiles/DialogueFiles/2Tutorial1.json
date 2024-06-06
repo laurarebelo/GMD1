@@ -1,0 +1,31 @@
+{
+    "dialogue": [
+        {
+            "name": "Maggie",
+            "line": "Welcome to the sewer!"
+        },
+
+        {
+            "name": "Maggie",
+            "line": "Before you become a hero, you must learn how to use your spray to slay the sewer monsters."
+        },
+        {
+            "name": "Maggie",
+            "line": "They are made out of paint."
+        },
+        {
+            "name": "Maggie",
+            "line": "You can slay them by painting over them with the OPPOSITE color."
+        },
+        {
+            "name": "Maggie",
+            "line": "For example, if a monster is Yellow (Red + Green), you should spray it with Blue."
+        },
+        {
+            "name": "Maggie",
+            "line": "Give it a go!"
+        }
+    ]
+}
+
+

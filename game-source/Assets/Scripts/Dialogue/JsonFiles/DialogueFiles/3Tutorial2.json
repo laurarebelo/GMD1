@@ -1,0 +1,15 @@
+{
+  "dialogue": [
+    {
+      "name": "Maggie",
+      "line": "Great job! You managed to kill three Yellow slimes."
+    },
+
+    {
+      "name": "Maggie",
+      "line": "Now try to kill Blue slimes. For this, you will need Yellow, so press Red and Green at the same time."
+    }
+  ]
+}
+
+

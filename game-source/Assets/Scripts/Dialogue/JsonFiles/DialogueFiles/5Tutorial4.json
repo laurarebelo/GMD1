@@ -1,0 +1,31 @@
+{
+  "dialogue": [
+    {
+      "name": "Maggie",
+      "line": "Amazing!"
+    },
+
+    {
+      "name": "Maggie",
+      "line": "You will now be left on your own to kill some slimes without any hints."
+    },
+    {
+      "name": "Maggie",
+      "line": "For this level, you will have infinite spray paint."
+    },
+    {
+      "name": "Maggie",
+      "line": "However, when you leave the tutorial, your spray paint levels will be limited and you will have to manage it."
+    },
+    {
+      "name": "Maggie",
+      "line": "Still, there will be refills, and they respawn off-screen, so you should be good."
+    },
+    {
+      "name": "Maggie",
+      "line": "Good luck!"
+    }
+  ]
+}
+
+

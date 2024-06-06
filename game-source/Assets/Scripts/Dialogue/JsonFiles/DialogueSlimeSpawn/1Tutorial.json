@@ -1,0 +1,22 @@
+{
+  "spawnList": [
+    {
+      "r": true,
+      "g": true,
+      "b": false,
+      "slimeNumber": 3
+    },
+    {
+      "r": false,
+      "g": false,
+      "b": true,
+      "slimeNumber": 3
+    },
+    {
+      "r": true,
+      "g": false,
+      "b": true,
+      "slimeNumber": 3
+    }
+  ]
+}

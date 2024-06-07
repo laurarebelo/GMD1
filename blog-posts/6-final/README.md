@@ -48,7 +48,7 @@ The last screen of the game is me thanking you for playing!
 
 ![final-screen](https://github.com/laurarebelo/GMD1/assets/91252082/8ed7a210-d9d8-4e3c-9a5e-e10318d91414)
 
-Reading this blog post doesn't convey half of the sentiment you'd get by playing, especially considering the sound design of the game, so please do come by the VIA Arcade Machine at the XR Lab to try out OverChrome! :) 
+Reading this blog post doesn't convey half of the sentiment you would get by playing, especially considering the sound design of the game, so please do come by the VIA Arcade Machine at the XR Lab to try out OverChrome! :) 
 
 ![IMG_0218](https://github.com/laurarebelo/GMD1/assets/91252082/31f2f191-c279-4394-9cbe-efe9e4103b62)
 

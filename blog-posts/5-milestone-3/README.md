@@ -5,6 +5,7 @@ For my third milestone, I have implemented the following systems:
 - Cutscenes
 - Tutorial (Dynamic Slime Spawning)
 - Levels
+- New Attack System (Spray)
 - Sound
 - Pause Menu
 - Compile for Windows
@@ -80,6 +81,19 @@ Below is an example of one of the quickest level - notice how the dialogue is tr
 
 ![level](https://github.com/laurarebelo/GMD1/assets/91252082/0d1404d2-4acf-488e-bd0e-9c18e3d0c5b2)
 
+## NEW ATTACK SYSTEM - SPRAY
+
+You might also notice above that, unlike in the previous milestones, the way the Player attacks is now with a Spray and not with Bullets anymore! This is a change I planned to do for a long time but kept postponing due to thinking it would be very challenging ahahahah. But guess what, it wasn't so bad!
+
+For attacking, I previously had the script "PlayerShooter", which, well, shot bullets, so I copy pasted a lot of the functionality from this class and made a new one called PlayerShooterSpray! Looking back, maybe the first class should have been separated into more components so that I would only have to change one thing - but you live and you learn.
+
+This implementation was a bit funny because of the bugs that I found on the way. Since the previous approach was to instantiate many bullets, and the new one is to have a single Spray object where we "continuously" attack the monsters, there was a stage of development where the Spray was instantiated multiple times upon pressing the trigger button and the Player went FLYING... 
+
+![funny-bug](https://github.com/laurarebelo/GMD1/assets/91252082/3987c809-c671-4f0a-b090-571c5c7a30ba)
+
+The final result can be seen above in the gif for the LEVELS section.
+
+Overall, I am happy with the change! This was done very late in development so I already felt really confident and it went smoothly. This introduced a new degree of challenge to the game because the player has to be fairly close to the monsters to attack them now... muahahahah.
 
 ## SOUND
 

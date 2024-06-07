@@ -6,7 +6,7 @@ Game Development 1 Repository with the mandatory blog posts & source code for th
 [2. Game Design Document](https://github.com/laurarebelo/GMD1/blob/main//blog-posts/2-gdd)  
 [3. Milestone 1 - Control, Shooting, Enemy Health](https://github.com/laurarebelo/GMD1/blob/main//blog-posts/3-milestone-1)  
 [4. Milestone 2 - Player Health/Ammo, UI, Pickups, Sprites](https://github.com/laurarebelo/GMD1/blob/main//blog-posts/4-milestone-2)  
-[5. Milestone 3 - Maggie, Dialogue, Cutscenes, Tutorial, Sound, Pause, Windows, Input](https://github.com/laurarebelo/GMD1/blob/main//blog-posts/5-milestone-3)  
+[5. Milestone 3 - Maggie, Dialogue, Cutscenes, Tutorial, Spray, Sound, Pause, Windows, Input](https://github.com/laurarebelo/GMD1/blob/main//blog-posts/5-milestone-3)  
 [6. Showcase](https://github.com/laurarebelo/GMD1/blob/main//blog-posts/6-final)  
 
 ## Video Demonstration:
